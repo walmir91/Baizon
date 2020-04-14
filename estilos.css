@@ -1,0 +1,20 @@
+.teste {
+    background-color: rgba(161, 165, 161, 0.377);
+    border-color: #ff7728;
+    -webkit-box-shadow: 0 0 5px rgba(255, 97, 5, 0.76);
+    -moz-box-shadow:  0 0 5px rgba(255, 97, 5, 0.76);
+    -o-box-shadow:  0 0 5px rgba(255, 97, 5, 0.76);
+    -ms-box-shadow:  0 0 5px rgba(255, 97, 5, 0.76);
+    box-shadow:  0 0 5px rgba(255, 97, 5, 0.76);
+}
+.erro{
+    background-color: lightcoral;
+    color: #ff0000;
+    font-style: italic;
+    font-size: 20pt;
+}
+.alinhar{
+display: inline-block;
+width: 90px;
+height: auto;
+}
