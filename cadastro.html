@@ -1,26 +1,44 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="estilos/estilos.css">
+    <link rel="stylesheet" href="css/estilos.css">
     <title>Cadastro</title>
 </head>
-<body>
-    <h1>Cadastro de usuário</h1>
-    <form>
-        <div>
-            <label for="Username" class="alinhar">Nome de usuário: </label>
-            <input type="text" id="inUserName" class="teste">
-        </div>
-        <div>
-            <label for="UserPassword" class="alinhar">Senha: </label>
-            <input type="password" name="" id="inPasswordRegister">
-        </div>
-        <div>
-            <label for="PasswordConfirm" class="alinhar">Confirmar Senha: </label>
-            <input type="password" name="" id="inPasswordConfirm">
-        </div>
-    </form>
+
+<body class="pagina">
+    <img src="img/Perfinasa-logo.jpg" alt="Logomarca Perfinasa" class="imagem">
+    <center>
+        <h1>Cadastro de Usuário</h1>
+        <table class="table" >
+            <tr>
+                <th>
+            <form>
+                <div>
+                    <label for="Username" class="alinhar">Nome de usuário</label>
+                    <input class="form-control" type="text" id="inUserName" class="teste">
+                </div>
+
+                <div>
+                    <label for="UserPassword" class="alinhar">Senha</label>
+                    <input type="password" name="" id="inPasswordRegister">
+                </div>
+
+                
+                <div>
+                    <label for="PasswordConfirm" class="alinhar">Confirmar Senha</label>
+                    <input type="password" name="" id="inPasswordConfirm">
+                </div>
+
+                <p><input type="button" value="Confirmar" id="btConfirm"> <input type="button" value="Cancelar" id="btCancel"></p>
+            </th>
+            </form>
+        </tr>
+        </table>
+    </center>
+    <script src="js/cadastro.js"></script>
 </body>
+
 </html>
