@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dc Legends</title>
+</head>
+<body>
+    <h1>Fragmentos necessários</h1>
+    <p>Quantidade de fragmentos que possui: <input type="text" id="inFragmentos"></p>
+    <p>Quantidade de estrelas atual: <input type="text" id="inStar"></p>
+    <p><input type="button" value="Calcular" id="btCalcular"></p>
+    <p id="outResposta"></p>
+    <script src="js/index.js"></script>
+</body>
+</html>
